@@ -143,7 +143,38 @@ section input[type="text"], section input[type="email"], section textarea{
     padding: 10px 20px;
     background-color: white;
 
-
+}
+.footer-head{
+    font-weight: bold;
+    font-size: 100px;
+    color: #4E47FF;
 
 }
+footer{
+   
+    text-align: center;
+    width: 100%;
+
+    
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    text-decoration: none;
+    padding: 10px;
+    
+    
+}
+footer ul li a{
+    text-decoration: none;
+    color: #252432;
+}
+
+
+
+    
+    
+
 
