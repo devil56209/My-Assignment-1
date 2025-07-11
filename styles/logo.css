@@ -26,6 +26,7 @@ nav ul li{
     margin-right: 30px;
     
 }
+
 .btn-styles{
     color: #FFFFFF;
     background-color: #4E47FF;
@@ -35,6 +36,11 @@ nav ul li{
     color: white;
     padding: 12px 36px;
     border-radius: 5px;
+    
+}
+.btn-styles:hover{
+    color: aquamarine;
+    cursor: pointer;
 }
 
 .banner{
@@ -50,6 +56,43 @@ header{
     background-image: url(../Assets/Hero-bg.png);
     height: 600px;
     background-size: cover;
+    margin-bottom: 100px;
+    
+}
+/* section */
+.action{
+    border-radius: 10px;
+    max-width: 1140px;
+    height: 350px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.action-style{
+    padding: ;
+
+}
+
+.section-title{
+    color: #252432;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.section-description{
+    color: #252432;
+    font-weight: 300;
     
 }
 
+.image-container{
+     width: 403;         
+  height: 300;            
+  border-radius: 48px;
+    
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
