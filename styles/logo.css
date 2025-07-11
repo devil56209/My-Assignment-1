@@ -56,7 +56,7 @@ header{
     background-image: url(../Assets/Hero-bg.png);
     height: 600px;
     background-size: cover;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     
 }
 /* section */
@@ -67,7 +67,7 @@ header{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    
+    padding: 50px;
 }
 
 
@@ -80,7 +80,7 @@ header{
 
 .users-style{
     height: 280px;
-    background-color: #4d47ff33;
+    background-color: #4d47ff22;
     padding: 50px 80px;
     text-align: center;
     padding-bottom: 100px;
@@ -116,4 +116,34 @@ header{
 main{
     max-width: 1140px;
     margin: 0 auto;
+    height: 100%;
+    padding: 0;
+    background-color: #F7F8FA;
 }
+.touch-title{
+    font-weight: bold;
+    font-size: 100px;
+}
+.touch-column{
+    display: flex;
+    gap: 100px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 100px;
+    background-color: #4d47ff22;
+    border-radius: 30px;
+    margin-top: 50px;
+
+}
+section input[type="text"], section input[type="email"], section textarea{
+    width: 80%;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    background-color: white;
+
+
+
+}
+
